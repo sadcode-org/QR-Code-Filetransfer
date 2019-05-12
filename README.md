@@ -9,7 +9,7 @@
 
 
 
-[![asciicast](https://asciinema.org/a/173861.svg)](https://asciinema.org/a/173861)
+[![asciicast](https://asciinema.org/a/173861.svg)]()
 
 ## Installation
 
@@ -29,7 +29,7 @@ Local Install
 
 ```bash
 # clone the repo
-$ git clone https://github.com/sdushantha/qr-filetransfer.git
+$ git clone https://github.com/sadcode-org/QR-Code-Filetransfer.git
 
 # change the working directory to qr-filetransfer
 $ cd qr-filetransfer
@@ -91,4 +91,4 @@ Inspired by the Go project [qr-filetransfer](https://github.com/claudiodangelis/
 ## License
 MIT License
 
-Copyright © 2019 Siddharth Dushantha
+Copyright © 2019 SadCode Official
