@@ -34,7 +34,7 @@ message = """
 │ where an error is thrown even though the port is not being used. │
 │ This will be fixed very soon.                                    │
 │                                                                  │
-│ - Developers of code-filetrasfer                                 │
+│ - Developers of code-filetrasfer SadCode Official                │
 ╰──────────────────────────────────────────────────────────────────╯
 """
 
@@ -92,7 +92,7 @@ def FileUploadServerHandlerClass(output_dir):
             f.write(b"<title>code-filetransfer</title>")
             f.write(b"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">")
             f.write(b"<link href=\"https://fonts.googleapis.com/css?family=Comfortaa\" rel=\"stylesheet\">")
-            f.write(b"<link rel=\"icon\" href=\"https://raw.githubusercontent.com/sadcode-org/code-filetransfer/master/logo.png\" type=\"image/png\">")
+            f.write(b"<link rel=\"icon\" href=\"https://raw.githubusercontent.com/sadcode-org/QR-Code-Filetransfer/master/logo.png\" type=\"image/png\">")
             f.write(b"<center>")
             f.write(b"<body>")
             f.write(b"<h2 style=\"font-family: 'Comfortaa', cursive;color:'#263238';\">Upload Result Page</h2>")
@@ -107,10 +107,10 @@ def FileUploadServerHandlerClass(output_dir):
             f.write(("<br><a href=\"%s\" style=\"font-family: 'Comfortaa', cursive;color:'#263238';\">back</a>" % self.headers['referer']).encode())
             f.write(b"<hr><small style=\"font-family: 'Comfortaa', cursive;color:'#263238';\">Powerd By: ")
             f.write(b"<a href=\"https://github.com/sadcode-org\">")
-            f.write(b"sdushantha</a> and \n")
-            f.write(b"<a href=\"https://github.com/npes87184/\">")
-            f.write(b"npes87184</a>, check new version at \n")
-            f.write(b"<a href=\"https://pypi.org/project/qr-filetransfer/\">")
+            f.write(b"SadCode</a> and \n")
+            f.write(b"<a href=\"https://github.com/Lamer1337/\">")
+            f.write(b"VanGans</a>, check new version at \n")
+            f.write(b"<a href=\"https://github.com/sadcode-org/QR-Code-Filetransfer\">")
             f.write(b"here</a>.</small></body>\n</html>\n")
             length = f.tell()
             f.seek(0)
@@ -175,13 +175,13 @@ def FileUploadServerHandlerClass(output_dir):
             f = BytesIO()
             displaypath = html.escape(urllib.parse.unquote(self.nice_path))
 
-            f.write(b"<title>qr-filetransfer</title>")
+            f.write(b"<title>code-filetransfer</title>")
             f.write(b"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">")
             f.write(b"<link href=\"https://fonts.googleapis.com/css?family=Comfortaa\" rel=\"stylesheet\">")
-            f.write(b"<link rel=\"icon\" href=\"https://raw.githubusercontent.com/sadcode-org/code-filetransfer/master/logo.png\" type=\"image/png\">")
+            f.write(b"<link rel=\"icon\" href=\"https://raw.githubusercontent.com/sadcode-org/QR-Code-Filetransfer/master/logo.png\" type=\"image/png\">")
             f.write(b"<body>")
             f.write(b"<center>")
-            f.write(b"<img src=\"https://raw.githubusercontent.com/sadcode-org/code-filetransfer/master/logo.png\">")
+            f.write(b"<img src=\"https://raw.githubusercontent.com/sadcode-org/QR-Code-Filetransfer/master/logo.png\">")
             f.write(("<body>\n<h2 style=\"font-family: 'Comfortaa', cursive;color:'#263238';\">Please choose file to upload to %s</h2>\n" % displaypath).encode())
             f.write(b"<hr>")
             f.write(b"<form ENCTYPE=\"multipart/form-data\" method=\"post\"><input style=\"font-family:'Comfortaa', cursive;color:'#263238';\" name=\"file\" type=\"file\" multiple/><input type=\"submit\" value=\"upload\"/></form>")
