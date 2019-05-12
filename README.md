@@ -11,17 +11,17 @@
 
 ## Installation
 
-You will find the most updated version of ```qr-filetransfer``` here. But if you want the most stable version, use ```pip``` to install it
+You will find the most updated version of ```QR-Code-Filetransfer``` here. But if you want the most stable version, use ```pip``` to install it
 
 ### Pip Install
 
 Global Install
 
-```pip3 install qr-filetransfer```
+```pip3 install QR-Code-Filetransfer```
 
 Local Install
 
-```pip3 install --user qr-filetransfer```
+```pip3 install --user QR-Code-Filetransfer```
 
 ### Git Install
 
@@ -29,8 +29,8 @@ Local Install
 # clone the repo
 $ git clone https://github.com/sadcode-org/QR-Code-Filetransfer.git
 
-# change the working directory to qr-filetransfer
-$ cd qr-filetransfer
+# change the working directory to QR-Code-Filetransfer
+$ cd QR-Code-Filetransfer
 
 # install the requirements
 $ pip3 install -r requirements.txt
@@ -39,7 +39,7 @@ $ pip3 install -r requirements.txt
 
 ## Usage
 ```
-usage: qr-filetransfer [-h] [--debug] [--receive] [--port PORT] file_path
+usage: QR-Code-Filetransfer [-h] [--debug] [--receive] [--port PORT] file_path
 
 Transfer files over WiFi between your computer and your smartphone from the
 terminal
@@ -67,18 +67,18 @@ To exit the program, just press ```CTRL+C```.
 
 Transfer a single file
 ```bash
-$ qr-filetransfer /path/to/file.txt
+$ code-filetransfer /path/to/file.txt
 ```
 
 
 Transfer a full directory. **Note:** the directory gets zipped before being transferred
 ```bash
-$ qr-filetransfer /path/to/directory/
+$ code-filetransfer /path/to/directory/
 ```
 
 Receive/upload a file from your phone to your computer
 ```bash
-$ qr-filetransfer -r /path/to/receive/file/to/
+$ code-filetransfer -r /path/to/receive/file/to/
 ```
 
 ![](https://user-images.githubusercontent.com/27065646/56946075-7444ae00-6b29-11e9-9387-06ae063e1361.png)
