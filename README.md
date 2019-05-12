@@ -32,6 +32,9 @@ $ git clone https://github.com/sadcode-org/QR-Code-Filetransfer.git
 # change the working directory to QR-Code-Filetransfer
 $ cd QR-Code-Filetransfer
 
+# open file code-filetransfer again
+$ cd code-filetransfer
+
 # install the requirements
 $ pip3 install -r requirements.txt
 ```
