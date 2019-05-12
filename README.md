@@ -9,8 +9,6 @@
 
 
 
-(https://asciinema.org/a/173861.svg)]()
-
 ## Installation
 
 You will find the most updated version of ```qr-filetransfer``` here. But if you want the most stable version, use ```pip``` to install it
