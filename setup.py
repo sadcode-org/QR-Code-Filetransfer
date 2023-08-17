@@ -7,7 +7,7 @@ setuptools.setup(
     name='code-filetransfer',
     version='2.1',
     author='VanGans',
-    author_email='admin@sadcode.org',
+    author_email='oppicialxz@gmail.com',
     description='Transfer files over WiFi between your computer and your smartphone from the terminal',
     long_description=long_description,
     long_description_content_type='text/markdown',
